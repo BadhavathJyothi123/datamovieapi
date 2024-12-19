@@ -1,0 +1,12 @@
+.loader-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.route-page-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

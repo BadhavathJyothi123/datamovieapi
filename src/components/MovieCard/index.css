@@ -1,0 +1,70 @@
+.poster-size {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: Center;
+  width: 200px;
+  color: white;
+  font-family: 'Sans-serif';
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.movie:hover {
+  box-shadow: 3px 0px 15px 6px rgba(179, 177, 177, 0.1);
+}
+
+@media screen and (max-width: 1200px) {
+  .movie {
+    flex-grow: 1;
+  }
+}
+
+.view-details {
+  position: relative;
+  bottom: 0px;
+  align-self: stretch;
+  background-color: red;
+  border: none;
+  height: 30px;
+  color: white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .view-details {
+    align-self: center;
+  }
+}
+
+.view-details:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.movie-card-list {
+  list-style-type: none;
+}
+
+.movie-card-image {
+  height: 400px;
+  width: 350px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  color: purple;
+}
+.movie-rating {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+}
